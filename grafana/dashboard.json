@@ -1,0 +1,22 @@
+{
+    "dashboard": {
+      "id": null,
+      "title": "Network Monitoring",
+      "panels": [
+        {
+          "type": "graph",
+          "title": "Prometheus HTTP Requests",
+          "targets": [
+            {
+              "expr": "prometheus_http_requests_total",
+              "legendFormat": "Request Type",
+              "refId": "A"
+            }
+          ]
+        }
+      ],
+      "schemaVersion": 16,
+      "version": 1
+    }
+  }
+  
